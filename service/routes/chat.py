@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.services.chatbot_service import get_advice
+from service.chatbot_service import get_advice
 
 router = APIRouter()
 

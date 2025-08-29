@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile, File
-from app.models.prediction import PredictionPipeline
+from models.prediction import PredictionPipeline
 import shutil
 
 router = APIRouter()

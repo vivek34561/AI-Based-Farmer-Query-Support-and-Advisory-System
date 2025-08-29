@@ -17,5 +17,13 @@ Flask
 Flask-Cors
 gdown
 python-dotenv
--e .
+# -e .
 streamlit
+python-multipart
+openai
+dotenv
+langchain
+langdetect
+langchain_openai
+langgraph
+nltk

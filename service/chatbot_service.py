@@ -1,6 +1,7 @@
 from openai import OpenAI
-
-client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
+from dotenv import load_dotenv
+load_dotenv()
+client = OpenAI(api_key="OPENAI_API_KEY")
 
 def get_advice(query, context=None):
     context_text = f"Location: {context.get('location', 'Unknown')}, Crop: {context.get('crop', 'Unknown')}" if context else ""
